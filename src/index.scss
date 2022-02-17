@@ -1,0 +1,10 @@
+@import 'styles/sanspro.css';
+@import 'styles/unicons.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.dark {
+  color-scheme: dark;
+}

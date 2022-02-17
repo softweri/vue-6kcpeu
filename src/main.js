@@ -1,4 +1,16 @@
-const { createApp } = require('vue');
-import App from "./App.vue";
+import { createApp } from 'vue'
+import { createHead } from '@vueuse/head'
 
-createApp(App).mount("#app");
+import App from './App.vue'
+import router from './router'
+import counter from './counter'
+
+import './index.scss'
+
+const head = createHead()
+
+createApp(App)
+  .use(head)
+  .use(router)
+  .use(counter)
+  .mount('#app')

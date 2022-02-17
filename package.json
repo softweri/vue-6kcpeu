@@ -1,22 +1,40 @@
 {
-  "name": "sb-vue",
+  "name": "awmonitor",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
-    "vue": "^3.2.26"
+    "@headlessui/vue": "^1.4.2",
+    "@vueuse/core": "^7.5.1",
+    "@vueuse/head": "^0.7.4",
+    "dayjs": "^1.10.7",
+    "delay": "^5.0.0",
+    "format-duration": "^1.4.0",
+    "js-base64": "^3.7.1",
+    "ky": "^0.28.7",
+    "qr-creator": "^1.0.0",
+    "vue": "^3.2.26",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.0",
-    "@vue/cli-plugin-eslint": "^4.4.0",
-    "@vue/cli-service": "^4.4.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.26",
+    "autoprefixer": "^10.4.1",
+    "cross-env": "^7.0.2",
+    "postcss": "^8.4.5",
+    "sass": "^1.45.2",
+    "tailwindcss": "^3.0.8",
+    "unplugin-auto-import": "^0.5.5",
+    "unplugin-vue-components": "^0.17.11",
+    "vite": "^2.7.10",
+    "vite-plugin-pages": "^0.19.8",
+    "vite-plugin-pwa": "^0.11.12",
+    "vite-plugin-vue-layouts": "^0.5.0"
   }
 }
