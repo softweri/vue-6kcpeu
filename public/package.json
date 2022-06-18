@@ -16,7 +16,7 @@
     "js-base64": "^3.7.1",
     "ky": "^0.28.7",
     "qr-creator": "^1.0.0",
-    "vue": "^3.2.26",
+    "vue": "^3.2.35",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
